@@ -1,0 +1,68 @@
+
+.phoneDiv {
+  width: 13.5vw;
+  height: 22.5vw;
+}
+
+.phoneBox{
+  height:100%;
+  width:100%;
+  /* background-color: rebeccapurple; */
+}
+
+/* The device with borders */
+.smartphone {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  border: 0.2vw rgb(92, 85, 85) solid;
+  border-top-width: 2vw;
+  border-bottom-width: 2vw;
+  border-radius: 6%;
+}
+  
+  /* The horizontal line on the top of the device */
+  .smartphone:before {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 1%;
+    position: absolute;
+    top: -3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 37%;
+  }
+  
+  /* The circle on the bottom of the device */
+  .smartphone:after {
+    content: '';
+    display: block;
+    width: 6.5%;
+    height: 4%;
+    position: absolute;
+    left: 50%;
+    bottom: -7%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+}
+  
+  /* The screen (or content) of the device */
+  .smartphone .content {
+    width: 100%;
+    border: none;
+    height: 100%;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+
+  @media only screen and (max-width:1000px){
+  .phoneDiv {
+    width: 27vw;
+    height: 44.5vw;
+}
+  }
