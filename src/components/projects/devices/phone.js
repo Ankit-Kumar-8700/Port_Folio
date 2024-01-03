@@ -6,7 +6,7 @@ function Phone({image}) {
     <div className="phoneBox">
     <div className="smartphone">
   <div className="content">
-    <div style={{width:"100%",border:"none",height:"100%",background:`url(${image})`,backgroundSize: 'contain',backgroundPosition: 'center center', backgroundRepeat: "no-repeat"}} ></div>
+    <div style={{width:"100%",border:"none",height:"100%",background:`url(${image}) center center / contain no-repeat`}} ></div>
   </div>
 </div>
 </div>

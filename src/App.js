@@ -11,7 +11,7 @@ import Click from './components/home/click';
 import Projects from './components/projects';
 import Skills from './components/skills';
 // import Snowfall from './Snowfall';
-import Stars from './stars';
+// import Stars from './stars';
 
 function App() {
   return (
@@ -20,12 +20,12 @@ function App() {
       <Beaker/>
       <Keyboard/>
       <AboutDesc/>
-      <Skills/>
       <Projects/>
+      <Skills/>
       <ContactLinks/>
       <ContactForm/>
       {/* <Snowfall /> */}
-      <Stars />
+      {/* <Stars /> */}
     </div>
   );
 }

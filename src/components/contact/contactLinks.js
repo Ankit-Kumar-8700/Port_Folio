@@ -1,6 +1,6 @@
 import React from 'react';
 import './contactLinks.css';
-import contactPic from '../../images/pic.png';
+// import contactPic from '../../images/pic.png';
 
 function ContactLinks() {
   return (
@@ -58,9 +58,9 @@ function ContactLinks() {
          </a>
         </div>
       </div>
-      <div className="contactPic">
+      {/* <div className="contactPic">
         <img src={contactPic} alt="contactMe" />
-      </div>
+      </div> */}
     </div>
   )
 }
