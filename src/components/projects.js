@@ -221,30 +221,30 @@ function Projects() {
       <div className="projects-tabs">
         <div className="projects-header">
           <div className="active" onClick={()=>{setProjectType("DSA"); setProject(Object.keys(data["DSA"])[0]); setSlideIndex(1);}}>
-          <i className="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-table-cells"></i>
             DSA
           </div>
           <div onClick={()=>{setProjectType("Web-Dev"); setProject(Object.keys(data["Web-Dev"])[0]); setSlideIndex(1);}}>
-          <i className="fa-solid fa-user-nurse"></i>
+          <i class="fa-solid fa-globe"></i>
             Web Dev
           </div>
           <div onClick={()=>{setProjectType("Data Analysis"); setProject(Object.keys(data["Data Analysis"])[0]); setSlideIndex(1);}}>
-          <i className="fa-solid fa-clipboard-question"></i>
+          <i class="fa-solid fa-chart-line"></i>
           Analysis
           </div>
           <div onClick={()=>{setProjectType("Flask-ML"); setProject(Object.keys(data["Flask-ML"])[0]); setSlideIndex(1);}}>
-          <i className="fa-solid fa-clipboard-question"></i>
+          <i class="fa-solid fa-robot"></i>
             Flask/ML
           </div>
           <div onClick={()=>{setProjectType("Deep Learning"); setProject(Object.keys(data["Deep Learning"])[0]); setSlideIndex(1);}}>
-          <i className="fa-solid fa-clipboard-question"></i>
+          <i class="fa-solid fa-code-branch"></i>
           DL
           </div>
         </div>
         <div className="project-indicator"></div>
         <div className="projects-content">
         <div className="projectsDropdown">
-          <button onClick={handleProjectsDropdown} className="text-white projectsDropbtn">{project}</button>
+          <button onClick={handleProjectsDropdown} className="text-white projectsDropbtn">{project} <i className="fa-regular fa-square-caret-down" style={{fontSize:"inherit", color:"inherit", backgroundColor:"transparent"}}></i></button>
           <div id="projectDropdown" className="projectsDropdown-content">
             {Object.keys(data[projectType]).map((key)=>(
               <button className="dropopt" key={key} onClick={()=>{setSlideIndex(1); setProject(key);}}>{key}</button>
