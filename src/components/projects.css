@@ -50,7 +50,6 @@
     float:left;
     width: 180px;
     height: 70%;
-    border-right: 1px solid white;
     padding:50px 0;
   }
   .projects-tabs .projects-header div{
@@ -78,16 +77,18 @@
     height: 100%;
     overflow: hidden;
   }
-  .projects-content >div.active2{
+  .projects-content .active2{
     display: block;
     border-left: 2px solid white;
     top:0;
   }
-  .projects-content >div{
-    display: none;
+  .projects-content {
+    /* display: none; */
     position: relative;
     text-align: center;
-    padding: 40px 20px;
+    border-left: 1px solid white;
+    padding: 10px;
+    padding-right: 0;
     top:-100%;
     transition: all 500ms ease-in-out;
   }
@@ -115,7 +116,7 @@
     transition: all 500ms ease-in-out; */
   }
 
-  .dropbtn {
+  .projectsDropbtn {
     background: linear-gradient(to left, #010118 0%, #3c3369 100%);
     border-radius: 10px;
     color: #97a0ed;
@@ -126,22 +127,26 @@
     border: none;
   }
   
-  .dropdown {
+  .projectsDropdown {
     position: relative;
     display: block;
   }
   
-  .dropdown-content {
+  .projectsDropdown-content {
     display: none;
-    width: 90%;
-    margin-left: 5%;
+    margin: 0 8% 0 5%;
     position: absolute;
+    width: -webkit-fill-available;
     background-color: #181818;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
-  .dropdown-content .dropopt {
+    .showProjects {
+      display: block;
+    }
+  
+  .projectsDropdown-content .dropopt {
     color: #9a91dd;
     padding: 5px 10px;
     text-decoration: none;
@@ -154,9 +159,9 @@
     border-radius: 5px;
   }
   
-  .dropdown-content .dropopt:hover {background-color: #000012;}
+  .projectsDropdown-content .dropopt:hover {background-color: #000012;}
   
-  .dropdown:hover .dropdown-content {display: block;}
+  /* .dropdown:hover .dropdown-content {display: block;} */
   
 
 
@@ -174,7 +179,7 @@
     }
   }
   @media only screen and (max-width:850px){
-    .projects-content>div h2 {
+    .projects-content h2 {
       font-size: 1.1rem;
     }
     .projects-tabs .projects-header {
@@ -188,11 +193,18 @@
     }
   }
   @media only screen and (max-width:625px){
-    .projects-content>div h2, .dropbtn {
+    .projects-content h2 {
       font-size: 14px;
     }
     .textProjects p, .dropopt{
       font-size: 10px;
+    }
+    .projects-tabs .projects-header{
+      padding: 0;
+    }
+    .projects-tabs .projects-header div{
+      line-height: normal;
+      height: 30px;
     }
   }
   @media only screen and (max-width:400px){
@@ -203,7 +215,7 @@
     .projects-content>div i{
       padding: 5px;
     }
-    .projects-content>div h2, .dropbtn {
+    .projects-content h2, .projectsDropbtn {
       font-size: 9px;
     }
     .projects-tabs .projects-header {

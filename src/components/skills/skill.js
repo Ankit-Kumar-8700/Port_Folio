@@ -34,9 +34,9 @@ function Skill({skill,percentage,image}) {
       </style>
 
   <div className="orbit-system">
-  <div class="system">
-    <div class="satellite-orbit">
-      <div class={`satellite satellite-${skill}`}></div>
+  <div className="system">
+    <div className="satellite-orbit">
+      <div className={`satellite satellite-${skill}`}></div>
     </div>
   <div className={`progress-bar ${skill} planet`}>
       <img src={image} alt={`${skill}.png`} />

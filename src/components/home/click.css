@@ -1,6 +1,7 @@
 .cursor{
     z-index: 10;
     position: fixed;
+    display: none;
 }
 .cursor .clickAnim{
     position: relative;
@@ -23,6 +24,9 @@
     height:20px;
     width:20px;
     border-radius: 50%;
+}
+.cursor.active{
+    display: block;
 }
 .cursor.active .clickAnim .shape.circle{
     animation: clickAnimationCircle 3s ease-out infinite;
