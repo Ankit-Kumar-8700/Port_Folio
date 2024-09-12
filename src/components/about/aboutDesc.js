@@ -3,6 +3,7 @@ import './aboutDesc.css';
 import contactPic from '../../images/contactPic.png';
 import ContactCard from '../contact/contactCard';
 import Tech from './tech';
+import Experience from '../experience/experience';
 
 function AboutDesc() {
   return (
@@ -29,8 +30,17 @@ function AboutDesc() {
                 Hello, nice to meet you!<br />
                 I'm a proactive B.Tech CSE student in my third year. Proficient in the <b>MERN stack</b>, I specialize in full-stack web development. Alongside, I've explored the realms of <b>ML and DL</b>, translating my knowledge into impactful projects. My passion lies in crafting intelligent solutions that address real-world challenges. <b>Adaptable and driven</b>, I'm committed to <b>continuous learning</b>, staying at the forefront of tech trends. Explore my portfolio for a glimpse into my journey—where innovation meets expertise.
             </p>
+            <div className='downloadResume'>
+            <button>
+                <a href='https://drive.google.com/file/d/1JVQEaceQzyNLq3-wyKL8zqOSD0A3zf_5/view?usp=drive_link' target="_blank" rel="noreferrer">
+                    Resume
+                </a>
+            </button>
+        </div>
         </div>
     </div>
+        
+    <Experience />
     <div className="aboutSliderOuter">
     <div className="aboutSlider">
         <Tech icon="fa-brands fa-dev" field="Web Dev" content="Have insights of the amazing MERN Stack. Also have worked on basic level in Flask (Backend) and MySQL(DataBase)." />

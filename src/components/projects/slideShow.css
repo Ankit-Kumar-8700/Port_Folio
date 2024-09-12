@@ -110,10 +110,10 @@ img {vertical-align: middle;}
 
 .projectLinks a{
   background: linear-gradient(to left, #010118 0%, #3c3369 100%);
+  box-shadow: 2px 2px gray;
+  color: #97a0ed;
     border-radius: 10px;
-    color: #97a0ed;
     font-weight: 600;
-    box-shadow: 2px 2px gray;
     padding: 0 5px;
     text-decoration: none;
     font-size: 0.6rem;
