@@ -28,7 +28,7 @@ function AboutDesc() {
             </div>
             <p className="aboutBody">
                 Hello, nice to meet you!<br />
-                I'm a proactive B.Tech CSE student in my third year. Proficient in the <b>MERN stack</b>, I specialize in full-stack web development. Alongside, I've explored the realms of <b>ML and DL</b>, translating my knowledge into impactful projects. My passion lies in crafting intelligent solutions that address real-world challenges. <b>Adaptable and driven</b>, I'm committed to <b>continuous learning</b>, staying at the forefront of tech trends. Explore my portfolio for a glimpse into my journey—where innovation meets expertise.
+                I'm a proactive B.Tech grad - CSE student. Proficient in the <b>MERN stack</b>, I specialize in full-stack web development. Alongside, I've explored the realms of <b>ML and DL</b>, translating my knowledge into impactful projects. My passion lies in crafting intelligent solutions that address real-world challenges. <b>Adaptable and driven</b>, I'm committed to <b>continuous learning</b>, staying at the forefront of tech trends. Explore my portfolio for a glimpse into my journey—where innovation meets expertise.
             </p>
             <div className='downloadResume'>
             <button>
