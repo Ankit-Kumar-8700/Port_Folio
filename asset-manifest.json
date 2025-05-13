@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Port_Folio/static/css/main.496f4a6d.css",
-    "main.js": "/Port_Folio/static/js/main.d4754784.js",
+    "main.css": "/Port_Folio/static/css/main.ceb44cb1.css",
+    "main.js": "/Port_Folio/static/js/main.7e41d879.js",
     "static/js/787.2e9b76fa.chunk.js": "/Port_Folio/static/js/787.2e9b76fa.chunk.js",
     "static/media/2.png": "/Port_Folio/static/media/2.80e153573866b895add2.png",
     "static/media/1.png": "/Port_Folio/static/media/1.cec791597cdf4350ddb0.png",
@@ -14,6 +14,7 @@
     "static/media/6.png": "/Port_Folio/static/media/6.43672cb8660b0fcc1cb6.png",
     "static/media/contactPic.png": "/Port_Folio/static/media/contactPic.4ae393fd1f5a7e4b1c24.png",
     "static/media/7.png": "/Port_Folio/static/media/7.c8197fcfbd93c4d6ff1a.png",
+    "static/media/angular.png": "/Port_Folio/static/media/angular.a24ea8d81231f915ef44.png",
     "static/media/9.png": "/Port_Folio/static/media/9.082b8909c81ede6adb65.png",
     "static/media/mongodb.png": "/Port_Folio/static/media/mongodb.98a37a23d4e1ad2a1c95.png",
     "static/media/stars4.png": "/Port_Folio/static/media/stars4.2fd03adddb76d31c7580.png",
@@ -34,17 +35,15 @@
     "static/media/tensorflow.png": "/Port_Folio/static/media/tensorflow.912f5eb30615080040f6.png",
     "static/media/numpy.png": "/Port_Folio/static/media/numpy.37f52c9c6588f45c4c86.png",
     "static/media/js.png": "/Port_Folio/static/media/js.012cf9b7cdf2ec152508.png",
-    "static/media/tableau.png": "/Port_Folio/static/media/tableau.32cd2231f350a77b2833.png",
     "static/media/mysql.png": "/Port_Folio/static/media/mysql.f77fc13b82bb55c4edcf.png",
-    "static/media/powerbi.png": "/Port_Folio/static/media/powerbi.7de7a317d23711dc7b73.png",
     "static/media/pandas.png": "/Port_Folio/static/media/pandas.fc71ac6423177fe29898.png",
     "index.html": "/Port_Folio/index.html",
-    "main.496f4a6d.css.map": "/Port_Folio/static/css/main.496f4a6d.css.map",
-    "main.d4754784.js.map": "/Port_Folio/static/js/main.d4754784.js.map",
+    "main.ceb44cb1.css.map": "/Port_Folio/static/css/main.ceb44cb1.css.map",
+    "main.7e41d879.js.map": "/Port_Folio/static/js/main.7e41d879.js.map",
     "787.2e9b76fa.chunk.js.map": "/Port_Folio/static/js/787.2e9b76fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.496f4a6d.css",
-    "static/js/main.d4754784.js"
+    "static/css/main.ceb44cb1.css",
+    "static/js/main.7e41d879.js"
   ]
 }
