@@ -6,7 +6,7 @@ function ContactCard({link,site,points}) {
     <div className="contactCard">
     <div className="card">
   <div className="card-info">
-    <p className="title"><a href={link} target="_blank" rel="noreferrer">{site}</a></p>
+    <p className="title"><a href={link} target="_blank" rel="noreferrer">{site} <i style={{'fontSize': 'small'}} class="fa-solid fa-share"></i> </a></p>
     <ul>
       {points.map((item, index) => {
         return <li key={index}>{item}</li>;

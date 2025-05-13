@@ -7,7 +7,7 @@ function Role({organization, role, date, bullets, link}) {
       <div className="flag-wrapper">
         <span className="hexa"></span>
       <div className='flag-outer'>
-        <span className="flag"><b><a href={link} target="_blank" rel="noreferrer">{organization}</a></b> <br /> <i>{role}</i></span>
+        <span className="flag"><b><a href={link} target="_blank" rel="noreferrer">{organization} <i style={{'fontSize': 'small'}} class="fa-solid fa-share"></i> </a></b> <br /> <i>{role}</i></span>
         </div>
         <span className="time-wrapper"><span className="time">{date}</span></span>
         {/* <span className="flag">role</span>
