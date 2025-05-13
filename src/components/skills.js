@@ -4,6 +4,7 @@ import Skill from "./skills/skill";
 
 import js from '../images/skills/js.png';
 import reactjs from '../images/skills/reactjs.png';
+import angular from '../images/skills/angular.png';
 
 import mongodb from '../images/skills/mongodb.png';
 import mysql from '../images/skills/mysql.png';
@@ -22,8 +23,8 @@ import c from '../images/skills/c.png';
 import cpp from '../images/skills/cpp.png';
 import python from '../images/skills/python.png';
 
-import tableau from '../images/skills/tableau.png';
-import powerbi from '../images/skills/powerbi.png';
+// import tableau from '../images/skills/tableau.png';
+// import powerbi from '../images/skills/powerbi.png';
 
 function Skills() {
   return (
@@ -37,6 +38,7 @@ function Skills() {
       <ul> */}
         <Skill skill='JS' percentage='70' image={js}  />
         <Skill skill='ReactJs' percentage='70' image={reactjs}  />
+        <Skill skill='AngularJs' percentage='70' image={angular}  />
       {/* </ul>
       <ul> */}
         <Skill skill='MongoDB' percentage='70' image={mongodb}  />
@@ -55,8 +57,8 @@ function Skills() {
         <Skill skill='OpenCV' percentage='70' image={opencv} />
       {/* </ul>
       <ul> */}
-        <Skill skill='Tableau' percentage='50' image={tableau} />
-        <Skill skill='PowerBI' percentage='60' image={powerbi} />
+        {/* <Skill skill='Tableau' percentage='50' image={tableau} />
+        <Skill skill='PowerBI' percentage='60' image={powerbi} /> */}
       </ul>
     </div>
     </div>

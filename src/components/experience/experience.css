@@ -223,7 +223,8 @@
 
 .desc li{
   padding: 0;
-    list-style: none;
+    list-style: inside;
+    text-align: left;
 }
 
 .direction-l .desc,

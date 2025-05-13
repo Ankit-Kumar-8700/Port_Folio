@@ -16,7 +16,9 @@ function Role({organization, role, date, bullets, link}) {
       <div className="desc">
         <ul>
           {bullets.map((bullet) => {
-            return <li>{bullet}</li>;
+            return <li>
+              {bullet}
+            </li>;
           })}
         </ul>
       </div>

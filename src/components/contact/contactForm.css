@@ -123,31 +123,31 @@
     content: "0 out of 5";
   }
   #star-1:checked ~ .contactFooter .contactClass::before{
-    content: "I just hate it";
+    content: "Tastes don't match";
   }
   #star-1:checked ~ .contactFooter .contactStarsNumber::before{
     content: "1 out of 5";
   }
   #star-2:checked ~ .contactFooter .contactClass::before{
-    content: "I don't like it";
+    content: "Can't say";
   }
   #star-2:checked ~ .contactFooter .contactStarsNumber::before{
     content: "2 out of 5";
   }
   #star-3:checked ~ .contactFooter .contactClass::before{
-    content: "This is okayish";
+    content: "That's pretty fine";
   }
   #star-3:checked ~ .contactFooter .contactStarsNumber::before{
     content: "3 out of 5";
   }
   #star-4:checked ~ .contactFooter .contactClass::before{
-    content: "Oh, it's pretty good";
+    content: "Can't get eyes off";
   }
   #star-4:checked ~ .contactFooter .contactStarsNumber::before{
     content: "4 out of 5";
   }
   #star-5:checked ~ .contactFooter .contactClass::before{
-    content: "I just love it";
+    content: "Damn! Too good..";
   }
   #star-5:checked ~ .contactFooter .contactStarsNumber::before{
     content: "5 out of 5";
