@@ -58,7 +58,7 @@
 .downloadResume button {
     --green: gray;
     font-size: 15px;
-    padding: 0.7em 2.7em;
+    padding: 0.7em 0em;
     letter-spacing: 0.06em;
     position: relative;
     font-family: inherit;
@@ -76,6 +76,7 @@
   .downloadResume button a{
     text-decoration: none;
     color: inherit;
+    padding: 0.7em 2.7em;
   }
   
   .downloadResume button:hover {

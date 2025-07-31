@@ -28,11 +28,11 @@ function AboutDesc() {
             </div>
             <p className="aboutBody">
                 Hello, nice to meet you!<br />
-                I'm a proactive B.Tech grad - CSE student. Proficient in the <b>MERN stack</b>, I specialize in full-stack web development. Alongside, I've explored the realms of <b>ML and DL</b>, translating my knowledge into impactful projects. My passion lies in crafting intelligent solutions that address real-world challenges. <b>Adaptable and driven</b>, I'm committed to <b>continuous learning</b>, staying at the forefront of tech trends. Explore my portfolio for a glimpse into my journey—where innovation meets expertise.
+                I'm a proactive M.Tech - CSE student, at <b>IIT Kanpur</b>. Proficient in the <b>MERN stack</b>, I specialize in full-stack web development. Alongside, I've explored the realms of <b>ML and DL</b>, translating my knowledge into impactful projects. My passion lies in crafting intelligent solutions that address real-world challenges. <b>Adaptable and driven</b>, I'm committed to <b>continuous learning</b>, staying at the forefront of tech trends. Explore my portfolio for a glimpse of my journey...
             </p>
             <div className='downloadResume'>
             <button>
-                <a href='https://drive.google.com/file/d/1JVQEaceQzyNLq3-wyKL8zqOSD0A3zf_5/view?usp=drive_link' target="_blank" rel="noreferrer">
+                <a href='https://drive.google.com/file/d/1jz7kNq1Q-s9dlCc4DC5zmoVdSKgtpOMM/view?usp=drive_link' target="_blank" rel="noreferrer">
                     Resume
                 </a>
             </button>
@@ -43,13 +43,13 @@ function AboutDesc() {
     <Experience />
     <div className="aboutSliderOuter">
     <div className="aboutSlider">
-        <Tech icon="fa-brands fa-dev" field="Web Dev" content="Have insights of the amazing MERN Stack. Also have worked on basic level in Flask (Backend) and MySQL(DataBase)." />
-        <Tech icon="fa-solid fa-code" field="CP" content="Have knowledge of many algorithms starting from basic Search to advanced Trees and Graphs along with Game Theory and Number Theory." />
+        <Tech icon="fa-brands fa-dev" field="Web Dev" content="Proficient in developing full-stack applications using the MERN stack. Also familiar with backend development using Flask and relational database management with MySQL." />
+        <Tech icon="fa-solid fa-code" field="CP" content="Proficient in Data Structures and Algorithms, including advanced topics like trees, graphs, number theory, and game theory, with strong performance in competitive programming." />
         <Tech icon="fa-solid fa-robot" field="AI (ML & DL)" content="Have Deep insights of various topics related to ML & DL. Always have dived deep into the advanced concepts and mathematical point of view of DL, which explains the WHY and HOW of the concepts." />
     </div></div>
     <div className="aboutSliderOuter">
     <div className="aboutSlider">
-        <ContactCard link='https://leetcode.com/Ankit_Kumar_8700/' site='LeetCode' points={['1900+ Contest Rating', 'AIR 23 in LeetCode Weekly Contest 337', '500+ Questions Solved']} />
+        <ContactCard link='https://leetcode.com/u/b7d3HcrGsj/' site='LeetCode' points={['2000+ Contest Rating', 'Global 382 in LC Weekly Contest 337', '500+ Questions Solved']} />
         <ContactCard link='https://www.codingninjas.com/studio/profile/67c08da5-be5f-4ca1-986f-8de3f54fab76' site='Coding Ninjas' points={['2500+ Rating', '1x AIR 1', '4x AIR 2-5']} />
         <ContactCard link='https://www.codechef.com/users/ankit_8700' site='CodeChef' points={['1900+ Max. Contest Rating', '4* Coder']} />
     </div></div>

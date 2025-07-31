@@ -198,7 +198,7 @@
     padding: 2px 8px;
     font-size: small;
     border-radius: 0 5px;
-    color: gray;
+    color: rgb(189, 189, 189);
     border: 2px solid rgb(69, 69, 69);
     outline: 1px solid rgb(112 112 112);
     outline-offset: 2px;
@@ -209,7 +209,7 @@
     margin: 1em 0 0 0;
     padding: 1em;
     border-radius: 10px;
-    color: gray;
+    color: rgb(189, 189, 189);
     background: linear-gradient(to left, rgba(255, 255, 255, 0.1) 0%, #01041a 20%, #01041a 80%, rgba(255, 255, 255, 0.1) 100%);
     box-shadow: 0 0 15px 0 rgb(190 190 190);
     /* box-shadow: 0 0 1px rgba(0, 0, 0, 0.20); */
