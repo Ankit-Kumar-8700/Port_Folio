@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Port_Folio/static/css/main.ceb44cb1.css",
-    "main.js": "/Port_Folio/static/js/main.f260f78c.js",
+    "main.css": "/Port_Folio/static/css/main.a27793de.css",
+    "main.js": "/Port_Folio/static/js/main.a9517c00.js",
     "static/js/787.2e9b76fa.chunk.js": "/Port_Folio/static/js/787.2e9b76fa.chunk.js",
     "static/media/2.png": "/Port_Folio/static/media/2.80e153573866b895add2.png",
     "static/media/1.png": "/Port_Folio/static/media/1.cec791597cdf4350ddb0.png",
@@ -38,12 +38,12 @@
     "static/media/mysql.png": "/Port_Folio/static/media/mysql.f77fc13b82bb55c4edcf.png",
     "static/media/pandas.png": "/Port_Folio/static/media/pandas.fc71ac6423177fe29898.png",
     "index.html": "/Port_Folio/index.html",
-    "main.ceb44cb1.css.map": "/Port_Folio/static/css/main.ceb44cb1.css.map",
-    "main.f260f78c.js.map": "/Port_Folio/static/js/main.f260f78c.js.map",
+    "main.a27793de.css.map": "/Port_Folio/static/css/main.a27793de.css.map",
+    "main.a9517c00.js.map": "/Port_Folio/static/js/main.a9517c00.js.map",
     "787.2e9b76fa.chunk.js.map": "/Port_Folio/static/js/787.2e9b76fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ceb44cb1.css",
-    "static/js/main.f260f78c.js"
+    "static/css/main.a27793de.css",
+    "static/js/main.a9517c00.js"
   ]
 }
