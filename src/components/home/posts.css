@@ -23,8 +23,8 @@
 	           blink-caret .5s step-end infinite alternate;
 }
 .child2{
-    width: 16ch;
-	animation: typing 2s steps(16, end),
+    width: 23ch;
+	animation: typing 2s steps(23, end),
 	           blink-caret .5s step-end infinite alternate;
 }
 .child3{
