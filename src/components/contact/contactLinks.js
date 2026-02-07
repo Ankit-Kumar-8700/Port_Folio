@@ -8,7 +8,7 @@ function ContactLinks() {
       <div className="contact-text">
         <h1>Feel free to contact me...</h1>
         <div className="contact-cards">
-        <a href="https://www.facebook.com/profile.php?id=61551226064151" target="_blank" rel="noreferrer">
+        {/* <a href="https://www.facebook.com/profile.php?id=61551226064151" target="_blank" rel="noreferrer">
             <div className="layer">
                <span></span>
                <span></span>
@@ -19,7 +19,7 @@ function ContactLinks() {
             <div className="text">
                Facebook
             </div>
-         </a>
+         </a> */}
          <a href="https://github.com/Ankit-Kumar-8700" target="_blank" rel="noreferrer">
             <div className="layer">
                <span></span>
@@ -32,7 +32,7 @@ function ContactLinks() {
                GitHub
             </div>
          </a>
-         <a href="https://www.instagram.com/dood1e.k/" target="_blank" rel="noreferrer">
+         {/* <a href="https://www.instagram.com/dood1e.k/" target="_blank" rel="noreferrer">
             <div className="layer">
                <span></span>
                <span></span>
@@ -43,8 +43,8 @@ function ContactLinks() {
             <div className="text">
                Instagram
             </div>
-         </a>
-         <a href="https://www.linkedin.com/in/ankit-kumar-782547252/" target="_blank" rel="noreferrer">
+         </a> */}
+         <a href="https://www.linkedin.com/in/ankit-kumar-8889483a2/" target="_blank" rel="noreferrer">
             <div className="layer">
                <span></span>
                <span></span>

@@ -1,4 +1,4 @@
-@property --progress-value {
+/* @property --progress-value {
     syntax: "<integer>";
     inherits: false;
     initial-value: 0;
@@ -112,7 +112,7 @@
     to {
       --progress-value:100 ;
     }
-  }
+  } */
 
   .progress-bar-container{
     color: white;
@@ -130,19 +130,19 @@
   }
   
   .progress-bar-container .progress-bar::before {
-    counter-reset: percentage var(--progress-value);
+    /* counter-reset: percentage var(--progress-value); */
     position: relative;
     top: -45%;
     left: -15%;
     text-shadow: 2px 2px 2px white;
-    content: counter(percentage) "%";
+    /* content: counter(percentage) "%"; */
   }
 
   .progress-bar-container .progress-bar img{
     max-height: 50px;
     width: 50px;
     position: relative;
-    left: -15%;
+    left: 0%;
   }
   
   /*.progress-bar-container .html:hover{
@@ -341,7 +341,7 @@ The rotateX/Y reversal is easy since it's not animated, so just use its opposite
   .progress-bar-container .progress-bar img{
     max-height: 20px;
     width: 20px;
-    left: -20%;
+    left: 0%;
   }
 
   .satellite-orbit{

@@ -49,9 +49,10 @@ function AboutDesc() {
     </div></div>
     <div className="aboutSliderOuter">
     <div className="aboutSlider">
-        <ContactCard link='https://leetcode.com/u/b7d3HcrGsj/' site='LeetCode' points={['2000+ Contest Rating', 'Global 382 in LC Weekly Contest 337', '500+ Questions Solved']} />
-        <ContactCard link='https://www.codingninjas.com/studio/profile/67c08da5-be5f-4ca1-986f-8de3f54fab76' site='Coding Ninjas' points={['2500+ Rating', '1x AIR 1', '4x AIR 2-5']} />
+        <ContactCard link='https://codeforces.com/profile/Ankit_Kumar_8700' site='Codeforces' points={['1424 Max. Contest Rating', '"Specialist" Coder']} />
         <ContactCard link='https://www.codechef.com/users/ankit_8700' site='CodeChef' points={['1900+ Max. Contest Rating', '4* Coder']} />
+        <ContactCard link='https://leetcode.com/u/b7d3HcrGsj/' site='LeetCode' points={['2090 Peak Rating', 'Top 2.13% Candidate', 'Global 382 in LC Weekly Contest 337']} />
+        <ContactCard link='https://www.codingninjas.com/studio/profile/67c08da5-be5f-4ca1-986f-8de3f54fab76' site='Coding Ninjas' points={['2500+ Rating', '1x AIR 1', '4x AIR 2-5']} />
     </div></div>
     </div>
   )
